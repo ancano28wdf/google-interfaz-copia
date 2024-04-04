@@ -1,0 +1,75 @@
+body
+{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+#container{
+    margin: 0px auto;
+}
+
+header{ 
+   float: center;
+
+}   
+
+nav ul li{
+        float:right;
+        list-style:none;
+
+}
+
+.clearfix{
+    clear: both
+}
+
+nav ol li{
+    float: left;
+    list-style: none;
+}
+nav{
+    background: whitesmoke;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    text-align: left;
+    
+}
+
+
+aside{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+.barra-busqueda {
+    width: 200 px;
+    height: 30 px;
+    border: 1 px solid black;
+    padding: 5 px
+}
+.barra-busqueda button {
+    width: 150 px;
+    height: 25 px;
+    background-color: #000;
+    color:#fff
+    border: none;
+    cursor pointer;
+}
+.barra-busqueda input {
+    width: 50 px;
+    height: 35 px;
+    border: none;
+    outline: none;
+    font-size: 16 px;   
+}
+.barra-busqueda i {
+    width: 20 px;
+    height: 20 px;
+    color: #000;
+    margin-right: 5 px;
+}
+
