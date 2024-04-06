@@ -27,6 +27,8 @@ nav ul li{
 nav ol li{
     float: left;
     list-style: none;
+    text-align: justify;
+    padding: 10px;
 }
 
 nav{
@@ -53,20 +55,18 @@ div{
 input [type="text"] {
     padding: 10 px;
     border: 1 px solid #ccc;
-    border-radius:  5 px;
+    border-radius:  20 px;
     font-size: 16 px;
     width: 300 px;
     height: 200 px;
 }
-input [type="submit"] {
-    padding: 10 px 20 px;
-    margin-left: 10 px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5 px;
-    font-size:  16 px;
-    cursor: pointer;
+
+p {
+    border-radius:  20 px;
+    font-size: 16 px;
+    width: 200 px;
+    height: 100 px;
+
 }
 
 
