@@ -3,16 +3,12 @@
   <head>
     <meta charset="utf-8"/>
     <title>Nueva pestaña</title>
-    <link rel="stylesheet" href="estilos.CSS"/>
+    <link rel="stylesheet" href="./estilos.CSS"/>
     
     <body>
-
-       <div id="container">
-
-        <div class="clearfix"></div>
         <header>
-        <nav>
-            <ul>
+        <nav class="headernavegacion">
+            <ul class="headerlista">
                 <li>
                     <a href="index.HTML">
                         Gmail
@@ -38,8 +34,10 @@
         </nav>            
         </header> 
 
+        <main>
+         <section>   
         <aside>
-            <img width="300 px" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"/>
+            <img class="img" width="300 px" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"/>
 
         </aside>
 
@@ -49,11 +47,14 @@
             <input type="submit" value="Buscar"/> 
           </form>
         </div>
-            <footer>
+            <footer class="piedegoogle">
                 <p>Buscar en Google</p>
                 <p>Voy a tener suerte</p>
             </footer>
-       
+        </section>
+        </main>
+
+    <footer>
         <nav>
             <ol>
                 <li>
@@ -80,6 +81,7 @@
             </ol>        
         </nav>                            
        </div>
+    </footer>   
     </body>
   </head>
 </htlml>

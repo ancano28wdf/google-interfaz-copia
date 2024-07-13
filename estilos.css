@@ -1,29 +1,31 @@
-body
-{
-    background: white;
-    font-family: Arial, Helvetica, sans-serif
-    
-}
-
-#container{
-    margin: 0px auto;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header{ 
-   text-align: center;
+   padding: 0 0;
 
 }   
 
 nav ul li{
-        float:right;
-        list-style:none;
-        
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-content: end;
 }
 
-.clearfix{
-    clear: both
+.img {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
 }
 
+.piedegoogle {
+
+}
 nav ol li{
     float: left;
     list-style: none;
